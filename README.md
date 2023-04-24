@@ -1,0 +1,1 @@
+The miniest reproduction of [Can't build the extension for production which has both popup pages and tabs page](https://github.com/crxjs/chrome-extension-tools/issues/694)

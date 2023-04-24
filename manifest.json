@@ -1,0 +1,21 @@
+{
+    "action": {
+        "default_title": "BaaS"
+    },
+    "background": {
+        "service_worker": "src/background/index.ts"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    },
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "manifest_version": 3,
+    "name": "crxjs-reproduction",
+    "permissions": [
+        "storage",
+        "activeTab"
+    ],
+    "version": "1.0.0"
+}
