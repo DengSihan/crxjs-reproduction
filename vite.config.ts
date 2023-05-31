@@ -15,5 +15,14 @@ export default {
     plugins: [
         vue(),
         crx({ manifest: manifest as ManifestV3Export }),
-    ]
+    ],
+
+    build: {
+        rollupOptions: {
+            input: {
+                popup: path.resolve(__dirname, 'src/popup/index.html'),
+                bootstrap: path.resolve(__dirname, 'src/bootstrap/index.html'),
+            },
+        },
+    }
 }

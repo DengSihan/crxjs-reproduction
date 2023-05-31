@@ -1,6 +1,7 @@
 {
     "action": {
-        "default_title": "BaaS"
+        "default_title": "BaaS",
+        "default_popup": "src/popup/index.html"
     },
     "background": {
         "service_worker": "src/background/index.ts"
